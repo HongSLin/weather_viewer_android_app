@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/weather_view_holder_xml">
+
+    <TextView
+        android:layout_width="250sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:text="denver"
+        android:textSize="40sp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weather_description"
+        android:layout_toEndOf="@+id/city"
+
+        android:text="clear sky"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_description"
+        android:layout_toEndOf="@+id/city"
+        android:id="@+id/temperature"
+        android:text="55.55"
+        android:textSize="20sp"
+        android:layout_marginStart="15dp"/>
+    
+<!--    divider -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_below="@+id/city"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

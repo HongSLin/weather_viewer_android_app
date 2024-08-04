@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Lin_final</string>
+    <string name="temperature">Temperature</string>
+    <string name="feel">Feel-Like</string>
+    <string name="max">Maximum Temperature</string>
+    <string name="min">Minimum Temperature</string>
+    <string name="city"></string>
+    <string name="country"></string>
+    <string name="wind">Wind Speed</string>
+    <string name="humidity">Humidity</string>
+    <string name="weather_detail">Light Snow</string>
+
+</resources>
