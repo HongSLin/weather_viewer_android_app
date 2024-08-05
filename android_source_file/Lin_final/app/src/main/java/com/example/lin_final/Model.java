@@ -36,7 +36,7 @@ import android.content.Context;
 import java.util.ArrayList;
 
 public class Model{
-
+    // expired key, change it when you run the program
     private String api = "https://api.openweathermap.org/data/2.5/weather?appid=6a2b07954fc26972c448d0a43ae01cee";
     private String prefix_city = "&q=";
     private String city;
